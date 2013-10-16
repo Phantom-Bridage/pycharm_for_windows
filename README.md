@@ -1,4 +1,4 @@
-#WindowsでPyCharm
+WindowsにPyCharm CEを導入する
 ===================
 ## Pythonのインストール
 1. Pythonのページから最新版（2013年10月12日現在では2.7.5）のPythonをダウンロード  
