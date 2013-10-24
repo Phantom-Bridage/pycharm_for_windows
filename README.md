@@ -123,25 +123,26 @@ WindowsにPyCharm CEを導入する
 4. ダウンロードしたファイルをダブルクリックして，Next連打でインストール
 
 ## PyCharm CEの設定
-1. 初回起動時に，Complete Installationウインドウが出てくるが，  
+1. スタート -> 全てのプログラム -> JetBrains -> PyCharmを選択
+2. 初回起動時に，Complete Installationウインドウが出てくるが，  
    I do not （略）の方に，チェックがあることを確認して，OKを押す
-2. 再起動した後に，PyCharm Community Edition Initial Configurationウインドウで初期設定をする
+3. 再起動した後に，PyCharm Community Edition Initial Configurationウインドウで初期設定をする
    1. Keymap schemeは使ったことや聞いたことのある名前を選択すると良い
    2. IDE themeはDarculaがオススメ
    3. Editor colors and fontsはClick to previewを押すことでカラーテーマを  
       確認できるようになるので，確認しながら好みに合わせて設定する
    4. OKを押して，再起動する
-3. Create New Projectをクリック
-4. Project nameはtest
-5. 最初はInterpreterが設定できない状態なので，右の[…]をクリック
+4. Create New Projectをクリック
+5. Project nameはtest
+6. 最初はInterpreterが設定できない状態なので，右の[…]をクリック
    1. Python Interpretersウインドウが出てくるので，右側の+マークをクリック
    2. C:\Python27\python.exeを選択してクリック，  
       出てない場合は，Localを押して，C:\Python27\python.exeを探して，OKをクリック
    3. Pycharmが指定したPythonの設定を読み込むので，少し待つ
    4. Python 2.7.5が上のリストに追加されたのを確認して，OKをクリック
-6. Interpreterが設定できるようになっているので，Python 2.7.5を選んで，OKをクリック
-7. 設定終了，Windowsのセキュリティが警告してきたら，ブロックを解除を選択する
-8. ここで設定したことは，後から変更もできる
+7. Interpreterが設定できるようになっているので，Python 2.7.5を選んで，OKをクリック
+8. 設定終了，Windowsのセキュリティが警告してきたら，ブロックを解除を選択する
+9. ここで設定したことは，後から変更もできる
 
 ## PyCharm CEの基本的な使い方
 1. プロジェクトの作成
