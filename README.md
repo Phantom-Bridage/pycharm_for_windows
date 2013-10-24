@@ -119,7 +119,8 @@ WindowsにPyCharm CEを導入する
    ※URL:http://www.jetbrains.com/pycharm/
 2. Downloadタブをクリックし，Download Communityをクリックして，  
    Community Editionをダウンロードする(最後の数秒で止まる場合があるが待つ)
-3. ダウンロードしたファイルをダブルクリックして，Next連打でインストール
+3. ダウンロードエラーになった場合は，1,2分待って，再度ダウンロードする
+4. ダウンロードしたファイルをダブルクリックして，Next連打でインストール
 
 ## PyCharm CEの設定
 1. 初回起動時に，Complete Installationウインドウが出てくるが，  
