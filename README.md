@@ -80,30 +80,30 @@ WindowsにPyCharm CEを導入する
 2. 以下のようになっているので，   
 
 	**64bit版-Windows**  
-	PyReadline is a ctypes-based readline for Windows.
-	* pyreadline-1.7.1.win-amd64-py2.5.exe
-    	* pyreadline-1.7.1.win32-py2.5.exe
-    	* pyreadline-2.0.win-amd64-py2.6.exe
-    	* **<font color="red">pyreadline-2.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**
-    	* pyreadline-2.0.win-amd64-py3.2.exe
-    	* pyreadline-2.0.win-amd64-py3.3.exe
-    	* pyreadline-2.0.win32-py2.6.exe
-    	* pyreadline-2.0.win32-py2.7.exe
-    	* pyreadline-2.0.win32-py3.2.exe
-    	* pyreadline-2.0.win32-py3.3.exe
+	PyReadline is a ctypes-based readline for Windows.  
+	* pyreadline-1.7.1.win-amd64-py2.5.exe  
+	* pyreadline-1.7.1.win32-py2.5.exe  
+	* pyreadline-2.0.win-amd64-py2.6.exe  
+	* **<font color="red">pyreadline-2.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**  
+	* pyreadline-2.0.win-amd64-py3.2.exe  
+	* pyreadline-2.0.win-amd64-py3.3.exe  
+	* pyreadline-2.0.win32-py2.6.exe  
+	* pyreadline-2.0.win32-py2.7.exe  
+	* pyreadline-2.0.win32-py3.2.exe  
+	* pyreadline-2.0.win32-py3.3.exe  
     
 	**32bit版-Windows**  
-	PyReadline is a ctypes-based readline for Windows.
-	* pyreadline-1.7.1.win-amd64-py2.5.exe
-    	* pyreadline-1.7.1.win32-py2.5.exe
-    	* pyreadline-2.0.win-amd64-py2.6.exe
-    	* pyreadline-2.0.win-amd64-py2.7.exe
-    	* pyreadline-2.0.win-amd64-py3.2.exe
-    	* pyreadline-2.0.win-amd64-py3.3.exe
-    	* pyreadline-2.0.win32-py2.6.exe
-    	* **<font color="red">pyreadline-2.0.win32-py2.7.exe</font> <- `ここをクリック`**
-    	* pyreadline-2.0.win32-py3.2.exe
-    	* pyreadline-2.0.win32-py3.3.exe
+	PyReadline is a ctypes-based readline for Windows.  
+	* pyreadline-1.7.1.win-amd64-py2.5.exe  
+	* pyreadline-1.7.1.win32-py2.5.exe  
+	* pyreadline-2.0.win-amd64-py2.6.exe  
+	* pyreadline-2.0.win-amd64-py2.7.exe  
+	* pyreadline-2.0.win-amd64-py3.2.exe  
+	* pyreadline-2.0.win-amd64-py3.3.exe  
+	* pyreadline-2.0.win32-py2.6.exe  
+	* **<font color="red">pyreadline-2.0.win32-py2.7.exe</font> <- `ここをクリック`**  
+	* pyreadline-2.0.win32-py3.2.exe  
+	* pyreadline-2.0.win32-py3.3.exe  
 
 3. ダウンロードしたexeファイルを実行してインストールする
 
@@ -113,30 +113,30 @@ WindowsにPyCharm CEを導入する
 
 	**64bit版-Windows**  
 	IPython is an interactive computing (略)  
-	* ipython-0.10.2.win-amd64-py2.5.exe
-    	* ipython-0.10.2.win32-py2.5.exe
-    	* ipython-1.1.0.win-amd64-py2.6.exe
-    	* **<font color="red">ipython-1.1.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**
-    	* ipython-1.1.0.win-amd64-py3.2.exe
-    	* ipython-1.1.0.win-amd64-py3.3.exe
-    	* ipython-1.1.0.win32-py2.6.exe
-    	* ipython-1.1.0.win32-py2.7.exe
-    	* ipython-1.1.0.win32-py3.2.exe
-    	* ipython-1.1.0.win32-py3.3.exe
+	* ipython-0.10.2.win-amd64-py2.5.exe  
+	* ipython-0.10.2.win32-py2.5.exe  
+	* ipython-1.1.0.win-amd64-py2.6.exe  
+	* **<font color="red">ipython-1.1.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**  
+	* ipython-1.1.0.win-amd64-py3.2.exe  
+	* ipython-1.1.0.win-amd64-py3.3.exe  
+	* ipython-1.1.0.win32-py2.6.exe  
+	* ipython-1.1.0.win32-py2.7.exe  
+	* ipython-1.1.0.win32-py3.2.exe  
+	* ipython-1.1.0.win32-py3.3.exe  
 
     
 	**32bit版-Windows**  
 	IPython is an interactive computing (略)  
-    	* ipython-0.10.2.win-amd64-py2.5.exe
-    	* ipython-0.10.2.win32-py2.5.exe
-    	* ipython-1.1.0.win-amd64-py2.6.exe
-    	* ipython-1.1.0.win-amd64-py2.7.exe
-    	* ipython-1.1.0.win-amd64-py3.2.exe
-    	* ipython-1.1.0.win-amd64-py3.3.exe
-    	* ipython-1.1.0.win32-py2.6.exe
-    	* **<font color="red">ipython-1.1.0.win32-py2.7.exe</font> <- `ここをクリック`**
-    	* ipython-1.1.0.win32-py3.2.exe
-    	* ipython-1.1.0.win32-py3.3.exe
+	* ipython-0.10.2.win-amd64-py2.5.exe    
+	* ipython-0.10.2.win32-py2.5.exe  
+	* ipython-1.1.0.win-amd64-py2.6.exe  
+	* ipython-1.1.0.win-amd64-py2.7.exe  
+	* ipython-1.1.0.win-amd64-py3.2.exe  
+	* ipython-1.1.0.win-amd64-py3.3.exe  
+	* ipython-1.1.0.win32-py2.6.exe  
+	* **<font color="red">ipython-1.1.0.win32-py2.7.exe</font> <- `ここをクリック`**  
+	* ipython-1.1.0.win32-py3.2.exe  
+	* ipython-1.1.0.win32-py3.3.exe  
 
 3. ダウンロードしたexeファイルを実行してインストールする
    
