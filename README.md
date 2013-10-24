@@ -1,17 +1,23 @@
 WindowsにPyCharm CEを導入する
 ===================
+#### ※注意   
+* ***Windowsで *\\* をコピペしたら *￥* になる***  
+* ***Windowsのbit数(32bitか64bit)には注意する***  
+* ***ダウンロードするバージョンが少し異なる場合もある***
+* ***cmdの開き方は一番下を参照***
+
 ## Pythonのインストール
 1. Pythonのページから最新版（2013年10月12日現在では2.7.5）のPythonをダウンロード  
-   ※URL:http://www.python.org/download/releases/2.7.5  
-   ※OSのBit数に注意する（「コンピュータ」のプロパティから確認）  
-   ※Windows 8の人はデスクトップ左下で右クリックしてシステムをクリック
-2. ダブルクリックして，Next連打でインストールする
+   ※URL:http://www.python.org/download/releases/2.7.5    
+   ※Windows 8の人はデスクトップ左下で右クリックしてシステムをクリック  
+   ※***OSのbit数に注意する（「コンピュータ」のプロパティから確認）***   
+2. ダブルクリックして，Nextを連打してインストールする
 3. cmdで動作確認をする（動かないなら1.からやり直す）
    
    ```
-   C:￥Users￥ユーザ名>python <- これは恐らく動かない
-   C:￥Users￥ユーザ名>cd C:￥Python27
-   C:￥Python27> python 
+   C:\Users\ユーザ名>python <- これは恐らく動かない
+   C:\Users\ユーザ名>cd C:\Python27
+   C:\Python27> python 
    Python 2.7.5  （略）
    Type "Help"   （略）
    >>> 
@@ -22,56 +28,60 @@ WindowsにPyCharm CEを導入する
    >>> quit()
    ```
    
-4. C:￥Python27の中にScriptsというディレクトリが無ければ作っておく  
+4. C:\Python27の中にScriptsというディレクトリが無ければ作っておく  
    ※大文字，小文字，スペルミスに注意する
 5. 環境変数の設定
    1. スタートの「コンピュータ」を右クリックして，プロパティをクリック
    2. 左側にあるシステムの詳細設定をクリック
    3. 下側の環境変数をクリック
    4. システム環境変数のPATH（Path）を選んで編集をクリック
-   5. 変数値に;C:￥Python27;C:￥Python27￥Scriptsを追加
+   5. 変数値に;C:\Python27;C:\Python27\Scriptsを追加
    6. OK連打
 6. Pythonのインストール終了
 
 
+<!--
 ## setuptools，pip（パッケージ管理ツール）のインストール
 1. Python Package Indexから最新版（2013年10月12日現在では1.1.6）をクリック  
    ※URL:https://pypi.python.org/pypi/setuptools
-2. 以下のようになってるので，下のWindowsをクリック  
-**Installing and Using Setuptools**
+2. 以下のようになっているので， 
 
-    * Installation Instructions
-        * Upgrading from Distribute
-        * Upgrading from Setuptools 0.6
-        * Windows <- **`ここをクリック`**
-        * Unix-based Systems including Mac OS X
-        * Advanced Installation
-        * Downloads
-        * Uninstalling
-    * Using Setuptools and EasyInstall
-    * Credits    
+	**Installing and Using Setuptools**  
+
+	* Installation Instructions  
+		* Upgrading from Distribute   
+    	* Upgrading from Setuptools 0.6
+    	* **<font color="red">Windows</font> <- `ここをクリック`**
+    	* Unix-based Systems including Mac OS X   
+    	* Advanced Installation   
+    	* Downloads   
+    	* Uninstalling   
+	* Using Setuptools and EasyInstall   
+	* Credits      
      （以下，色々と続く）
+    
+
 3. ez_setup.pyと書いてあるリンクを右クリックして名前をつけて保存で保存する  
    ※URL:https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
 4. ダウンロードしたez_setup.pyをダブルクリックしたらインストール始まるので少し待つ
-5. 終了したら，C:￥Python27￥Scriptsの中ににeasy_install.exeが出来ている
+5. 終了したら，C:\Python27\Scriptsの中ににeasy_install.exeが出来ている
 6. cmdを開いて，pipをインストール
    
    ```
-   C:￥Users￥ユーザ名>easy_install pip
+   C:\Users\ユーザ名>easy_install pip
    ```
 
 ## ipythonのインストール
 1. ipythonという便利ツールをインストール
 
    ```
-   C:￥Users￥ユーザ名>pip install ipython
+   C:\Users\ユーザ名>pip install ipython
    ```
    
 2. インストールされたか確認
 
    ```
-   C:￥Users￥ユーザ名>pip freeze
+   C:\Users\ユーザ名>pip freeze
    ```
    **実行結果**
    
@@ -84,7 +94,7 @@ WindowsにPyCharm CEを導入する
 3. cmdを開いてipythonを実行
 
    ```
-   C:￥Users￥ユーザ名>ipython
+   C:\Users\ユーザ名>ipython
    ```
    
 4. ある程度の動作確認をしたら終了する
@@ -92,7 +102,138 @@ WindowsにPyCharm CEを導入する
    ```
    In [10]  quit()
    ```
+   -->
+## pip（パッケージ管理ツール）のインストール
+1. 以下のURLにアクセス  
+   ※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip
+2. 以下のようになっているので，   
+
+	**64bit版-Windows**  
+	Pip installs packages. An easy_install replacement.  
+
+	* pip-1.3.1.win-amd64-py2.5.exe
+	* pip-1.3.1.win32-py2.5.exe
+	* pip-1.4.1.win-amd64-py2.6.exe
+	* **<font color="red">pip-1.4.1.win-amd64-py2.7.exe</font> <- `ここをクリック`**
+	* pip-1.4.1.win-amd64-py3.2.exe
+	* pip-1.4.1.win-amd64-py3.3.exe
+	* pip-1.4.1.win32-py2.6.exe
+	* pip-1.4.1.win32-py2.7.exe
+	* pip-1.4.1.win32-py3.2.exe
+	* pip-1.4.1.win32-py3.3.exe  
+    
+	**32bit版-Windows**  
+	Pip installs packages. An easy_install replacement.  
+	
+	* pip-1.3.1.win-amd64-py2.5.exe
+	* pip-1.3.1.win32-py2.5.exe
+	* pip-1.4.1.win-amd64-py2.6.exe
+	* pip-1.4.1.win-amd64-py2.7.exe
+	* pip-1.4.1.win-amd64-py3.2.exe
+	* pip-1.4.1.win-amd64-py3.3.exe
+	* pip-1.4.1.win32-py2.6.exe
+	* **<font color="red">pip-1.4.1.win32-py2.7.exe</font> <- `ここをクリック`**
+	* pip-1.4.1.win32-py3.2.exe
+	* pip-1.4.1.win32-py3.3.exe
+
+
+3. ダウンロードしたexeファイルを実行してインストールする
+
+## ipythonのインストール
+1. まず，ipythonを使うのに必要なモジュールをインストールするために以下のURLにアクセス  
+   ※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyreadline
+2. 以下のようになっているので，   
+
+	**64bit版-Windows**  
+	PyReadline is a ctypes-based readline for Windows.
+
+    * pyreadline-1.7.1.win-amd64-py2.5.exe
+    * pyreadline-1.7.1.win32-py2.5.exe
+    * pyreadline-2.0.win-amd64-py2.6.exe
+    * **<font color="red">pyreadline-2.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**
+    * pyreadline-2.0.win-amd64-py3.2.exe
+    * pyreadline-2.0.win-amd64-py3.3.exe
+    * pyreadline-2.0.win32-py2.6.exe
+    * pyreadline-2.0.win32-py2.7.exe
+    * pyreadline-2.0.win32-py3.2.exe
+    * pyreadline-2.0.win32-py3.3.exe
+    
+	**32bit版-Windows**  
+	PyReadline is a ctypes-based readline for Windows.
+
+    * pyreadline-1.7.1.win-amd64-py2.5.exe
+    * pyreadline-1.7.1.win32-py2.5.exe
+    * pyreadline-2.0.win-amd64-py2.6.exe
+    * pyreadline-2.0.win-amd64-py2.7.exe
+    * pyreadline-2.0.win-amd64-py3.2.exe
+    * pyreadline-2.0.win-amd64-py3.3.exe
+    * pyreadline-2.0.win32-py2.6.exe
+    * **<font color="red">pyreadline-2.0.win32-py2.7.exe</font> <- `ここをクリック`**
+    * pyreadline-2.0.win32-py3.2.exe
+    * pyreadline-2.0.win32-py3.3.exe
+
+3. ダウンロードしたexeファイルを実行してインストールする
+
+1. ipythonをインストールするために以下のURLにアクセス  
+   ※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#ipython
+2. 以下のようになっているので，   
+
+	**64bit版-Windows**  
+	IPython is an interactive computing (略)  
+	
+    * ipython-0.10.2.win-amd64-py2.5.exe
+    * ipython-0.10.2.win32-py2.5.exe
+    * ipython-1.1.0.win-amd64-py2.6.exe
+    * **<font color="red">ipython-1.1.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**
+    * ipython-1.1.0.win-amd64-py3.2.exe
+    * ipython-1.1.0.win-amd64-py3.3.exe
+    * ipython-1.1.0.win32-py2.6.exe
+    * ipython-1.1.0.win32-py2.7.exe
+    * ipython-1.1.0.win32-py3.2.exe
+    * ipython-1.1.0.win32-py3.3.exe
+
+    
+	**32bit版-Windows**  
+	IPython is an interactive computing (略)  
+	
+    * ipython-0.10.2.win-amd64-py2.5.exe
+    * ipython-0.10.2.win32-py2.5.exe
+    * ipython-1.1.0.win-amd64-py2.6.exe
+    * ipython-1.1.0.win-amd64-py2.7.exe
+    * ipython-1.1.0.win-amd64-py3.2.exe
+    * ipython-1.1.0.win-amd64-py3.3.exe
+    * ipython-1.1.0.win32-py2.6.exe
+    * **<font color="red">ipython-1.1.0.win32-py2.7.exe</font> <- `ここをクリック`**
+    * ipython-1.1.0.win32-py3.2.exe
+    * ipython-1.1.0.win32-py3.3.exe
+
+3. ダウンロードしたexeファイルを実行してインストールする
    
+4. インストールされたかcmdを開いて確認
+
+   ```
+   C:\Users\ユーザ名>pip freeze
+   ```
+   **実行結果**
+   
+   ```
+   ipython==1.1.0
+   pyreadline==2.0
+   ```
+   ipythonを使うには，pyreadlineが必要だが，それもインストールしてくれている
+
+5. cmdを開いてipythonを実行
+
+   ```
+   C:\Users\ユーザ名>ipython
+   ```
+   
+6. ある程度の動作確認をしたら終了する
+   
+   ```
+   In [10]  quit()
+   ```
+
 ## PyCharm CE(Community Edition)のインストール
 1. GoogleでPyCharmを検索して，一番上にアクセス  
    ※URL:http://www.jetbrains.com/pycharm/
@@ -113,8 +254,8 @@ WindowsにPyCharm CEを導入する
 4. Project nameはtest
 5. 最初はInterpreterが設定できない状態なので，右の[…]をクリック
    1. Python Interpretersウインドウが出てくるので，右側の+マークをクリック
-   2. C:￥Python27￥python.exeを選択してクリック，  
-      出てない場合は，Localを押して，C:￥Python27￥python.exeを探して，OKをクリック
+   2. C:\Python27\python.exeを選択してクリック，  
+      出てない場合は，Localを押して，C:\Python27\python.exeを探して，OKをクリック
    3. Pycharmが指定したPythonの設定を読み込むので，少し待つ
    4. Python 2.7.5が上のリストに追加されたのを確認して，OKをクリック
 6. Interpreterが設定できるようになっているので，Python 2.7.5を選んで，OKをクリック
@@ -142,51 +283,67 @@ WindowsにPyCharm CEを導入する
        1. 納得行ったら，さらに改良する
        2. エラーが起きたら，修正して，再度実行する
 4. 1~3.を繰り返して，Pythonのプログラムをどんどん作っていく
-5. 必要であればcmdを開いて，pipを使って必要なモジュールをインストールする
+5. ~~必要であればcmdを開いて，pipを使って必要なモジュールをインストールする~~
+6. 必要なモジュールがある場合は，以下のサイトから，モジュール名，bit数などを確認し，ダウンロードしてインストールする  
+	※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 ## 代表的なモジュール
-**NumPy** 数値計算用モジュール  
-http://sourceforge.net/projects/numpy/files/NumPy/1.7.0/numpy-1.7.0-win32-superpack-python2.7.exe/download
+下の3つモジュールは重要なモジュール（ライブラリ，パッケージ，ツール）である．  
+* *NumPy* 数値計算用モジュール  
+* *SciPy* 科学計算用モジュール，NumPyの兄弟分  
+* *matplotlib* グラフ表示用モジュール  
 
-**SciPy** 科学計算用モジュール，NumPyの兄弟分  
-http://sourceforge.net/projects/scipy/files/scipy/0.12.0/scipy-0.12.0-win32-superpack-python2.7.exe/download
+3つをインストールするには以下のサイトからダウンロードする  
+※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack  
 
-**matplotlib** グラフ表示用モジュール  
-https://github.com/downloads/matplotlib/matplotlib/matplotlib-1.2.0.win32-py2.7.exe 
+**64bit版-Windows**  
+Scipy-stack (experimental) is a meta package that (略)  
 
+* **<font color="red">Scipy-stack-13.10.11.win-amd64-py2.7.exe</font> <- `ここをクリック`**  
+* Scipy-stack-13.10.11.win-amd64-py3.3.exe  
+* Scipy-stack-13.10.11.win32-py2.7.exe  
+* Scipy-stack-13.10.11.win32-py3.3.exe  
+
+**32bit版-Windows**  
+Scipy-stack (experimental) is a meta package that (略)  
+
+* Scipy-stack-13.10.11.win-amd64-py2.7.exe  
+* Scipy-stack-13.10.11.win-amd64-py3.3.exe  
+* **<font color="red">Scipy-stack-13.10.11.win32-py2.7.exe</font> <- `ここをクリック`**    
+* Scipy-stack-13.10.11.win32-py3.3.exe  
 
 ## その他
 ### cmdの開き方
 スタート押して，下の検索窓にcmdと打つとcmd.exeが出てくるので，エンターキーを押すか，クリックする．
 
 ### pipの基本的な使い方
-1. モジュール（パッケージ，ライブラリ，ツール）の検索
+1. モジュールの検索
 
    ```
-   C:￥Users￥ユーザ名>pip search モジュール名
+   C:\Users\ユーザ名>pip search モジュール名
    ```
 
 2. モジュールのインストール
 
    ```
-   C:￥Users￥ユーザ名>pip install モジュール名
+   C:\Users\ユーザ名>pip install モジュール名
    ```
 
 3. モジュールのアンインストール
 
    ```
-   C:￥Users￥ユーザ名>pip uninstall モジュール名
+   C:\Users\ユーザ名>pip uninstall モジュール名
    ```
 
 4. インストールしているモジュールの一覧表示
 
    ```
-   C:￥Users￥ユーザ名>pip freeze
+   C:\Users\ユーザ名>pip freeze
    ```
 5. その他のコマンド，オプションは単にpipと打って確認する
 
    ```
-   C:￥Users￥ユーザ名>pip
+   C:\Users\ユーザ名>pip
    ```
 
 ### PyCharmのちょっと便利な使い方
