@@ -109,11 +109,13 @@ WindowsにPyCharm CEを導入する
 	* pip-1.4.1.win32-py3.3.exe
 
 
-3. ダウンロードしたexeファイルを実行してインストールする
+3. ダウンロードしたexeファイルを実行する
+4. ユーザーアカウント制御が出てきた場合は，許可を選択
+5. 次へを連打でインストールする
 
 
 ## PyCharm CE(Community Edition)のインストール
-1. GoogleでPyCharmを検索して，一番上にアクセス  
+1. 以下のURLにアクセスする  
    ※URL:http://www.jetbrains.com/pycharm/
 2. Downloadタブをクリックし，Download Communityをクリックして，  
    Community Editionをダウンロードする
