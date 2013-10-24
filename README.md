@@ -177,7 +177,7 @@ WindowsにPyCharm CEを導入する
 	* *SciPy* 科学計算用モジュール，NumPyの兄弟分  
 	* *matplotlib* グラフ表示用モジュール  
 
-2. 3つをインストールするには以下のサイトからモジュールをダウンロード（約）する  
+2. 3つをインストールするには以下のサイトからモジュールをダウンロード（約110MB）する  
 	※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack  
 
 	**64bit版-Windows**  
