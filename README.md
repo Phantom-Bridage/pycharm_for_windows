@@ -4,6 +4,7 @@ WindowsにPyCharm CEを導入する
 1. Pythonのページから最新版（2013年10月12日現在では2.7.5）のPythonをダウンロード  
    ※URL:http://www.python.org/download/releases/2.7.5  
    ※OSのBit数に注意する（「コンピュータ」のプロパティから確認）
+   ※Windows 8の人はデスクトップ左下で右クリックしてシステムをクリック
 2. ダブルクリックして，Next連打でインストールする
 3. cmdで動作確認をする（動かないなら1.からやり直す）
    
