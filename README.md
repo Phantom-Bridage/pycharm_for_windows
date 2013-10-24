@@ -15,25 +15,42 @@ WindowsにPyCharm CEを導入する
 	* 32bit版 -> Windows x86 MSI Installer (2.7.5) (sig)
 	* 64bit版 -> Windows X86-64 MSI Installer (2.7.5) [1] (sig)
 3. 実行して，Nextを連打してインストールする
-4. どちらかの方法でコマンドプロンプトの開く
+4. どちらかの方法でコマンドプロンプトを開く
 	* スタートボタン -> 検索窓にcmdと打つ -> cmd.exeが出てくる -> クリックする
 	* スタートボタン -> 全てのプログラム -> アクセサリ -> コマンドプロンプト
 
 5. コマンドプロンプトで動作確認をする（動かないなら1.からやり直す）
+	1. 初期状態  
+	```
+   	C:\Users\ユーザ名>  
+   	```
+
+	2. pythonと打ってEnterを押す    
+	```
+   	C:\Users\ユーザ名>python   
+   	```
+	
+	3. 2.では動かないので次のように打ちEnterを押す  	
+	```
+	C:\Users\ユーザ名>cd C:\Python27  
+	```
+
+	4. pythonと打ってEnterを押す  
+	```
+	C:\Python27> python   
+	```
+
+	5. こうなったらOK   
+	```
+   	Python 2.7.5  （略）  
+   	Type "Help"   （略）  
+   	>>>
+	```
    
-   ```
-   C:\Users\ユーザ名>python <- これは恐らく動かない
-   C:\Users\ユーザ名>cd C:\Python27
-   C:\Python27> python 
-   Python 2.7.5  （略）
-   Type "Help"   （略）
-   >>> 
-   ```
-   こうなったらOK，以下のように打って終了する
-   
-   ```
-   >>> quit()
-   ```
+	6. 以下のように打ってEnterを押して終了する   
+   	```
+	>>> quit()
+   	```
    
 4. C:\Python27の中にScriptsというディレクトリが無ければ作っておく  
    ※大文字，小文字，スペルミスに注意する
