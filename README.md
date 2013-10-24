@@ -172,29 +172,29 @@ WindowsにPyCharm CEを導入する
 	※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 ## 代表的なモジュール
-下の3つモジュールは重要なモジュール（ライブラリ，パッケージ，ツール）である．  
-* *NumPy* 数値計算用モジュール  
-* *SciPy* 科学計算用モジュール，NumPyの兄弟分  
-* *matplotlib* グラフ表示用モジュール  
+1. 下の3つモジュールは重要なモジュール（ライブラリ，パッケージ，ツール）である．  
+	* *NumPy* 数値計算用モジュール  
+	* *SciPy* 科学計算用モジュール，NumPyの兄弟分  
+	* *matplotlib* グラフ表示用モジュール  
 
-3つをインストールするには以下のサイトからダウンロードする  
-※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack  
+2. 3つをインストールするには以下のサイトからモジュールをダウンロード（約）する  
+	※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack  
 
-**64bit版-Windows**  
-Scipy-stack (experimental) is a meta package that (略)  
+	**64bit版-Windows**  
+	Scipy-stack (experimental) is a meta package that (略)  
+	* **<font color="red">Scipy-stack-13.10.11.win-amd64-py2.7.exe</font> <- `ここをクリック`**  
+	* Scipy-stack-13.10.11.win-amd64-py3.3.exe  
+	* Scipy-stack-13.10.11.win32-py2.7.exe  
+	* Scipy-stack-13.10.11.win32-py3.3.exe  
 
-* **<font color="red">Scipy-stack-13.10.11.win-amd64-py2.7.exe</font> <- `ここをクリック`**  
-* Scipy-stack-13.10.11.win-amd64-py3.3.exe  
-* Scipy-stack-13.10.11.win32-py2.7.exe  
-* Scipy-stack-13.10.11.win32-py3.3.exe  
+	**32bit版-Windows**  
+	Scipy-stack (experimental) is a meta package that (略)  
+	* Scipy-stack-13.10.11.win-amd64-py2.7.exe  
+	* Scipy-stack-13.10.11.win-amd64-py3.3.exe  
+	* **<font color="red">Scipy-stack-13.10.11.win32-py2.7.exe</font> <- `ここをクリック`**    
+	* Scipy-stack-13.10.11.win32-py3.3.exe  
 
-**32bit版-Windows**  
-Scipy-stack (experimental) is a meta package that (略)  
-
-* Scipy-stack-13.10.11.win-amd64-py2.7.exe  
-* Scipy-stack-13.10.11.win-amd64-py3.3.exe  
-* **<font color="red">Scipy-stack-13.10.11.win32-py2.7.exe</font> <- `ここをクリック`**    
-* Scipy-stack-13.10.11.win32-py3.3.exe  
+3. ダウンロードが終わったら，実行して"次へ"を連打でインストール
 
 ## その他
 ### pipの基本的な使い方
