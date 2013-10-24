@@ -25,25 +25,21 @@ WindowsにPyCharm CEを導入する
 	```
    	C:\Users\ユーザ名>  
    	```
-
 	* pythonと打ってEnterを押す  
 
 	```
    	C:\Users\ユーザ名>python   
    	```
-	
 	* 上では動かない（エラーになる）ので次のように打ちEnterを押す
 
 	```
 	C:\Users\ユーザ名>cd C:\Python27  
 	```
-
 	* pythonと打ってEnterを押す  
 
 	```
 	C:\Python27>python   
 	```
-
 	* こうなったらOK   
 
 	```
@@ -51,7 +47,6 @@ WindowsにPyCharm CEを導入する
 	Type "Help"   (略)  
 	>>>  
 	```
-   
 	* 以下のように打ってEnterを押して終了する
 
    	```
@@ -63,7 +58,7 @@ WindowsにPyCharm CEを導入する
 	```
 	C:\Users\ユーザ名>cd C:\Python27  
 	```
-6. mkdir Scriptsと打つ※大文字，小文字，スペルミスに注意する
+6. mkdir Scriptsと打つ(大文字，小文字，スペルミスに注意する)
 	```
 	C:\Users\ユーザ名>mkdir Scripts  
 	```
@@ -76,7 +71,10 @@ WindowsにPyCharm CEを導入する
    4. システム環境変数のPATH（Path）を選んで編集をクリック
    5. 変数値に;C:\Python27;C:\Python27\Scriptsを追加
    6. OK連打
-8. Pythonのインストール終了
+8. コマンドプロンプトを開いている場合は閉じる
+9. もう一度，コマンドプロンプトを開いて，pythonと打つ
+10. 5.の様になればOK，コマンドプロンプトを閉じてPythonのインストール終了
+11. 10.でエラーになる場合は，7.をもう一度やる
 
 
 ## pip（パッケージ管理ツール）のインストール
