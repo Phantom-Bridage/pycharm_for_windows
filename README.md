@@ -126,39 +126,41 @@ WindowsにPyCharm CEを導入する
 1. スタート -> 全てのプログラム -> JetBrains -> PyCharmを選択
 2. 初回起動時に，Complete Installationウインドウが出てくるが，  
    I do not （略）の方に，チェックがあることを確認して，OKを押す
-3. 再起動した後に，PyCharm Community Edition Initial Configurationウインドウで初期設定をする
-   1. Keymap schemeは使ったことや聞いたことのある名前を選択すると良い
+3. PyCharmが再起動した後に，PyCharm Community Edition Initial Configurationウインドウで初期設定をする
+   1. Keymap schemeは使ったことや聞いたことのある名前を選択すると良い（ない人はVisual Studio）
    2. IDE themeはDarculaがオススメ
    3. Editor colors and fontsはClick to previewを押すことでカラーテーマを  
       確認できるようになるので，確認しながら好みに合わせて設定する
-   4. OKを押して，再起動する
+   4. OKを押して，PyCharmを再起動する
 4. Create New Projectをクリック
 5. Project nameはtest
-6. 最初はInterpreterが設定できない状態なので，右の[…]をクリック
+6. Locationはそのまま
+7. 最初はInterpreterが設定できない状態なので，右の[…]をクリック
    1. Python Interpretersウインドウが出てくるので，右側の+マークをクリック
    2. C:\Python27\python.exeを選択してクリック，  
       出てない場合は，Localを押して，C:\Python27\python.exeを探して，OKをクリック
    3. Pycharmが指定したPythonの設定を読み込むので，少し待つ
    4. Python 2.7.5が上のリストに追加されたのを確認して，OKをクリック
-7. Interpreterが設定できるようになっているので，Python 2.7.5を選んで，OKをクリック
-8. 設定終了，Windowsのセキュリティが警告してきたら，ブロックを解除を選択する
-9. ここで設定したことは，後から変更もできる
+8. Interpreterが設定できるようになっているので，Python 2.7.5を選んで，OKをクリック
+9. 設定終了，Windowsのセキュリティが警告してきたら，ブロックを解除を選択する
+10. ここで設定したことは，後から変更もできる
 
 ## PyCharm CEの基本的な使い方
 1. プロジェクトの作成
-	1. 起動時でも，Fileメニューからでも選べるNew Projectを選択
+	1. 起動時でも，上のFileメニューからでも選べるNew Projectを選択
 	2. Project Nameに設定した名前（以下，testと呼ぶ）で，Locationの場所に，ディレクトリが作られる
 2. ソースコードの作成
 	1. 左側のtestというディレクトリアイコンの場所を右クリックして，New -> Python Fileをクリック
-	2. Name（今回は，spam）を設定し，KindはPython fileにしたまま，OKをクリック
+	2. 画面が1つしか無い場合は，上のメニューからView -> Tool Windows -> Projectをクリック
+	3. Name（今回は，spam）を設定し，KindはPython fileにしたまま，OKをクリック  
 	   ※このとき，Nameに拡張子（.py）は付けなくてもよい
-	3. testというディレクトリの中に，spam.pyが出来ている  
+	4. testというディレクトリの中に，spam.pyが出来ている  
 	   ※エクスプローラからも確認できる
-3. トライアンドエラーでソースコードを完成させていく
+3. 後はソースコードを完成させていくだけ
 	1. 右側のエディタでコードを書く
 	2. ソースコードを動かす
 	   1. 最初は上のRunメニューから3つめのRunをクリックし，実行するソースコードの名前を選択する
-	   2. 1.を行ったあとは，Ctrl+F5で実行できるようになっている  
+	   2. 1.を行ったあとは，Ctrl+F5(Keymap schemeによって異なる)で実行できるようになっている  
 	      ※最初に設定したKeymap schemeの設定によって，実行方法が異なる場合があるので  
 	      そのときは，各メニューの右側に示してあるKeymapで実行するようにする
     3. 実行結果が出力される  
