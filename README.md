@@ -20,31 +20,31 @@ WindowsにPyCharm CEを導入する
 	* スタートボタン -> 全てのプログラム -> アクセサリ -> コマンドプロンプト
 
 5. コマンドプロンプトで動作確認をする（動かないなら1.からやり直す）
-	1. 初期状態  
-
+	* 初期状態  
+	
 	```
    	C:\Users\ユーザ名>  
    	```
 
-	2. pythonと打ってEnterを押す  
+	* pythonと打ってEnterを押す  
 
 	```
    	C:\Users\ユーザ名>python   
    	```
 	
-	3. 2.では動かないので次のように打ちEnterを押す
+	* 上では動かない（エラーになる）ので次のように打ちEnterを押す
 
 	```
 	C:\Users\ユーザ名>cd C:\Python27  
 	```
 
-	4. pythonと打ってEnterを押す  
+	* pythonと打ってEnterを押す  
 
 	```
 	C:\Python27>python   
 	```
 
-	5. こうなったらOK   
+	* こうなったらOK   
 
 	```
 	Python 2.7.5  (略)   
@@ -52,7 +52,7 @@ WindowsにPyCharm CEを導入する
 	>>>  
 	```
    
-	6. 以下のように打ってEnterを押して終了する
+	* 以下のように打ってEnterを押して終了する
 
    	```
 	>>>quit()
