@@ -1,7 +1,7 @@
 WindowsにPyCharm CEを導入する
 ===================
 #### ※注意   
-* ***Windowsで *\\* をコピペしたら *￥* になる***  
+* ***Windowsで \\ をコピペしたら ￥ になる***  
 * ***Windowsのbit数(32bitか64bit)には注意する***  
 * ***ダウンロードするバージョンが少し異なる場合もある***
 * ***cmdの開き方は一番下を参照***
@@ -40,69 +40,6 @@ WindowsにPyCharm CEを導入する
 6. Pythonのインストール終了
 
 
-<!--
-## setuptools，pip（パッケージ管理ツール）のインストール
-1. Python Package Indexから最新版（2013年10月12日現在では1.1.6）をクリック  
-   ※URL:https://pypi.python.org/pypi/setuptools
-2. 以下のようになっているので， 
-
-	**Installing and Using Setuptools**  
-
-	* Installation Instructions  
-		* Upgrading from Distribute   
-    	* Upgrading from Setuptools 0.6
-    	* **<font color="red">Windows</font> <- `ここをクリック`**
-    	* Unix-based Systems including Mac OS X   
-    	* Advanced Installation   
-    	* Downloads   
-    	* Uninstalling   
-	* Using Setuptools and EasyInstall   
-	* Credits      
-     （以下，色々と続く）
-    
-
-3. ez_setup.pyと書いてあるリンクを右クリックして名前をつけて保存で保存する  
-   ※URL:https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
-4. ダウンロードしたez_setup.pyをダブルクリックしたらインストール始まるので少し待つ
-5. 終了したら，C:\Python27\Scriptsの中ににeasy_install.exeが出来ている
-6. cmdを開いて，pipをインストール
-   
-   ```
-   C:\Users\ユーザ名>easy_install pip
-   ```
-
-## ipythonのインストール
-1. ipythonという便利ツールをインストール
-
-   ```
-   C:\Users\ユーザ名>pip install ipython
-   ```
-   
-2. インストールされたか確認
-
-   ```
-   C:\Users\ユーザ名>pip freeze
-   ```
-   **実行結果**
-   
-   ```
-   ipython==1.1.0
-   pyreadline==2.0
-   ```
-   ipythonを使うには，pyreadlineが必要だが，それもインストールしてくれている
-
-3. cmdを開いてipythonを実行
-
-   ```
-   C:\Users\ユーザ名>ipython
-   ```
-   
-4. ある程度の動作確認をしたら終了する
-   
-   ```
-   In [10]  quit()
-   ```
-   -->
 ## pip（パッケージ管理ツール）のインストール
 1. 以下のURLにアクセス  
    ※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip
@@ -110,7 +47,6 @@ WindowsにPyCharm CEを導入する
 
 	**64bit版-Windows**  
 	Pip installs packages. An easy_install replacement.  
-
 	* pip-1.3.1.win-amd64-py2.5.exe
 	* pip-1.3.1.win32-py2.5.exe
 	* pip-1.4.1.win-amd64-py2.6.exe
@@ -124,7 +60,6 @@ WindowsにPyCharm CEを導入する
     
 	**32bit版-Windows**  
 	Pip installs packages. An easy_install replacement.  
-	
 	* pip-1.3.1.win-amd64-py2.5.exe
 	* pip-1.3.1.win32-py2.5.exe
 	* pip-1.4.1.win-amd64-py2.6.exe
@@ -146,31 +81,29 @@ WindowsにPyCharm CEを導入する
 
 	**64bit版-Windows**  
 	PyReadline is a ctypes-based readline for Windows.
-
-    * pyreadline-1.7.1.win-amd64-py2.5.exe
-    * pyreadline-1.7.1.win32-py2.5.exe
-    * pyreadline-2.0.win-amd64-py2.6.exe
-    * **<font color="red">pyreadline-2.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**
-    * pyreadline-2.0.win-amd64-py3.2.exe
-    * pyreadline-2.0.win-amd64-py3.3.exe
-    * pyreadline-2.0.win32-py2.6.exe
-    * pyreadline-2.0.win32-py2.7.exe
-    * pyreadline-2.0.win32-py3.2.exe
-    * pyreadline-2.0.win32-py3.3.exe
+	* pyreadline-1.7.1.win-amd64-py2.5.exe
+    	* pyreadline-1.7.1.win32-py2.5.exe
+    	* pyreadline-2.0.win-amd64-py2.6.exe
+    	* **<font color="red">pyreadline-2.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**
+    	* pyreadline-2.0.win-amd64-py3.2.exe
+    	* pyreadline-2.0.win-amd64-py3.3.exe
+    	* pyreadline-2.0.win32-py2.6.exe
+    	* pyreadline-2.0.win32-py2.7.exe
+    	* pyreadline-2.0.win32-py3.2.exe
+    	* pyreadline-2.0.win32-py3.3.exe
     
 	**32bit版-Windows**  
 	PyReadline is a ctypes-based readline for Windows.
-
-    * pyreadline-1.7.1.win-amd64-py2.5.exe
-    * pyreadline-1.7.1.win32-py2.5.exe
-    * pyreadline-2.0.win-amd64-py2.6.exe
-    * pyreadline-2.0.win-amd64-py2.7.exe
-    * pyreadline-2.0.win-amd64-py3.2.exe
-    * pyreadline-2.0.win-amd64-py3.3.exe
-    * pyreadline-2.0.win32-py2.6.exe
-    * **<font color="red">pyreadline-2.0.win32-py2.7.exe</font> <- `ここをクリック`**
-    * pyreadline-2.0.win32-py3.2.exe
-    * pyreadline-2.0.win32-py3.3.exe
+	* pyreadline-1.7.1.win-amd64-py2.5.exe
+    	* pyreadline-1.7.1.win32-py2.5.exe
+    	* pyreadline-2.0.win-amd64-py2.6.exe
+    	* pyreadline-2.0.win-amd64-py2.7.exe
+    	* pyreadline-2.0.win-amd64-py3.2.exe
+    	* pyreadline-2.0.win-amd64-py3.3.exe
+    	* pyreadline-2.0.win32-py2.6.exe
+    	* **<font color="red">pyreadline-2.0.win32-py2.7.exe</font> <- `ここをクリック`**
+    	* pyreadline-2.0.win32-py3.2.exe
+    	* pyreadline-2.0.win32-py3.3.exe
 
 3. ダウンロードしたexeファイルを実行してインストールする
 
@@ -180,32 +113,30 @@ WindowsにPyCharm CEを導入する
 
 	**64bit版-Windows**  
 	IPython is an interactive computing (略)  
-	
-    * ipython-0.10.2.win-amd64-py2.5.exe
-    * ipython-0.10.2.win32-py2.5.exe
-    * ipython-1.1.0.win-amd64-py2.6.exe
-    * **<font color="red">ipython-1.1.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**
-    * ipython-1.1.0.win-amd64-py3.2.exe
-    * ipython-1.1.0.win-amd64-py3.3.exe
-    * ipython-1.1.0.win32-py2.6.exe
-    * ipython-1.1.0.win32-py2.7.exe
-    * ipython-1.1.0.win32-py3.2.exe
-    * ipython-1.1.0.win32-py3.3.exe
+	* ipython-0.10.2.win-amd64-py2.5.exe
+    	* ipython-0.10.2.win32-py2.5.exe
+    	* ipython-1.1.0.win-amd64-py2.6.exe
+    	* **<font color="red">ipython-1.1.0.win-amd64-py2.7.exe</font> <- `ここをクリック`**
+    	* ipython-1.1.0.win-amd64-py3.2.exe
+    	* ipython-1.1.0.win-amd64-py3.3.exe
+    	* ipython-1.1.0.win32-py2.6.exe
+    	* ipython-1.1.0.win32-py2.7.exe
+    	* ipython-1.1.0.win32-py3.2.exe
+    	* ipython-1.1.0.win32-py3.3.exe
 
     
 	**32bit版-Windows**  
 	IPython is an interactive computing (略)  
-	
-    * ipython-0.10.2.win-amd64-py2.5.exe
-    * ipython-0.10.2.win32-py2.5.exe
-    * ipython-1.1.0.win-amd64-py2.6.exe
-    * ipython-1.1.0.win-amd64-py2.7.exe
-    * ipython-1.1.0.win-amd64-py3.2.exe
-    * ipython-1.1.0.win-amd64-py3.3.exe
-    * ipython-1.1.0.win32-py2.6.exe
-    * **<font color="red">ipython-1.1.0.win32-py2.7.exe</font> <- `ここをクリック`**
-    * ipython-1.1.0.win32-py3.2.exe
-    * ipython-1.1.0.win32-py3.3.exe
+    	* ipython-0.10.2.win-amd64-py2.5.exe
+    	* ipython-0.10.2.win32-py2.5.exe
+    	* ipython-1.1.0.win-amd64-py2.6.exe
+    	* ipython-1.1.0.win-amd64-py2.7.exe
+    	* ipython-1.1.0.win-amd64-py3.2.exe
+    	* ipython-1.1.0.win-amd64-py3.3.exe
+    	* ipython-1.1.0.win32-py2.6.exe
+    	* **<font color="red">ipython-1.1.0.win32-py2.7.exe</font> <- `ここをクリック`**
+    	* ipython-1.1.0.win32-py3.2.exe
+    	* ipython-1.1.0.win32-py3.3.exe
 
 3. ダウンロードしたexeファイルを実行してインストールする
    
