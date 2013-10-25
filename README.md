@@ -208,11 +208,10 @@ WindowsにPyCharm CEを導入する
    C:\Users\ユーザ名>pip search モジュール名
    ```
 
-2. モジュールのインストール
-
-   ```
-   C:\Users\ユーザ名>pip install モジュール名
-   ```
+2. モジュールのインストール   
+   pip installでもインストール出来るが，必要なモジュールがある場合は，  
+   モジュール名，bit数などを確認し，以下のURLからダウンロードしてインストールした方がよい  
+   ※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 3. モジュールのアンインストール
 
