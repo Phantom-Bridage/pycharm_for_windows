@@ -12,10 +12,9 @@ WindowsにPyCharm CEを導入する
 	* Vista, 7:スタートボタン -> 「コンピュータ」を右クリック -> プロパティから確認
 	* Windows 8:はデスクトップ左下で右クリックしてシステムをクリック  
 2. 以下のページのDownloadからver2.7の最新版（2013年10月12日現在では2.7.5）のPythonをダウンロード   
-   ※URL:<a href="http://www.python.org/download/releases/2.7.5" target="_blank">
-		http://www.python.org/download/releases/2.7.5</a>
+   ※URL:<a href="http://www.python.org/download/releases/2.7.5" target="_blank">http://www.python.org/download/releases/2.7.5</a>
 	* 32bit版 -> Windows x86 MSI Installer (2.7.5) (sig)
-	* 64bit版 -> Windows X86-64 MSI Installer (2.7.5) [1] (sig)
+	* 64bit版 -> Windows X86-64 MSI Installer (2.7.5) \[1\] (sig)
 3. 実行して，Nextを連打してインストールする
 4. どちらかの方法でコマンドプロンプトを開く
 	* スタートボタン -> 検索窓にcmdと打つ -> cmd.exeが出てくる -> クリックする
@@ -66,13 +65,13 @@ WindowsにPyCharm CEを導入する
 	```
 9. 何も出てこないか，"サブディレクトリまたはファイル Scripts は既に存在します．"と出ればOK
    
-10. 環境変数の設定
-   1. スタートの「コンピュータ」を右クリックして，プロパティをクリック
-   2. 左側にあるシステムの詳細設定をクリック
-   3. 下側の環境変数をクリック
-   4. システム環境変数のPATH（Path）を選んで編集をクリック
-   5. 変数値に;C:\Python27;C:\Python27\Scriptsを追加
-   6. OK連打
+10. 環境変数の設定  
+	1. スタートの「コンピュータ」を右クリックして，プロパティをクリック
+	2. 左側にあるシステムの詳細設定をクリック
+	3. 下側の環境変数をクリック
+	4. システム環境変数のPATH（Path）を選んで編集をクリック
+	5. 変数値に;C:\Python27;C:\Python27\Scriptsを追加
+	6. OK連打
 11. コマンドプロンプトを開いている場合は閉じる
 12. もう一度，コマンドプロンプトを開いて，pythonと打つ
 13. 5.の"こうなったらOK"のようになればquit()と打って，コマンドプロンプトを閉じる
@@ -81,7 +80,7 @@ WindowsにPyCharm CEを導入する
 
 ## pip（パッケージ管理ツール）のインストール
 1. 以下のURLにアクセス  
-   ※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip
+   ※URL:<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip" target="_blank">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip</a>
 2. 以下のようになっているので，   
 
 	**64bit版-Windows**  
@@ -118,7 +117,7 @@ WindowsにPyCharm CEを導入する
 
 ## PyCharm CE(Community Edition)のインストール
 1. 以下のURLにアクセスする  
-   ※URL:http://www.jetbrains.com/pycharm/
+   ※URL:<a href="http://www.jetbrains.com/pycharm/" target="_blank">http://www.jetbrains.com/pycharm/</a>
 2. Downloadタブをクリックし，Download Communityをクリックして，  
    Community Editionをダウンロードする(最後の数秒で止まる場合があるが待つ)
 3. ダウンロードエラーになった場合は，1,2分待って，再度ダウンロードする
@@ -129,20 +128,20 @@ WindowsにPyCharm CEを導入する
 2. 初回起動時に，Complete Installationウインドウが出てくるが，  
    I do not （略）の方に，チェックがあることを確認して，OKを押す
 3. PyCharmが再起動した後に，PyCharm Community Edition Initial Configurationウインドウで初期設定をする
-   1. Keymap schemeは使ったことや聞いたことのある名前を選択すると良い（ない人はVisual Studio）
-   2. IDE themeはDarculaがオススメ
-   3. Editor colors and fontsはClick to previewを押すことでカラーテーマを  
+	1. Keymap schemeは使ったことや聞いたことのある名前を選択すると良い（ない人はVisual Studio）
+	2. IDE themeはDarculaがオススメ
+	3. Editor colors and fontsはClick to previewを押すことでカラーテーマを  
       確認できるようになるので，確認しながら好みに合わせて設定する
-   4. OKを押して，PyCharmを再起動する
+	4. OKを押して，PyCharmを再起動する
 4. Create New Projectをクリック
 5. Project nameはtest
 6. Locationはそのまま
 7. 最初はInterpreterが設定できない状態なので，右の[…]をクリック
-   1. Python Interpretersウインドウが出てくるので，右側の+マークをクリック
-   2. C:\Python27\python.exeを選択してクリック，  
+	1. Python Interpretersウインドウが出てくるので，右側の+マークをクリック
+	2. C:\Python27\python.exeを選択してクリック，  
       出てない場合は，Localを押して，C:\Python27\python.exeを探して，OKをクリック
-   3. Pycharmが指定したPythonの設定を読み込むので，少し待つ
-   4. Python 2.7.5が上のリストに追加されたのを確認して，OKをクリック
+	3. Pycharmが指定したPythonの設定を読み込むので，少し待つ
+	4. Python 2.7.5が上のリストに追加されたのを確認して，OKをクリック
 8. Interpreterが設定できるようになっているので，Python 2.7.5を選んで，OKをクリック
 9. 設定終了，Windowsのセキュリティが警告してきたら，ブロックを解除を選択する
 10. ここで設定したことは，後から変更もできる
@@ -171,7 +170,7 @@ WindowsにPyCharm CEを導入する
 4. 1~3.を繰り返して，Pythonのプログラムをどんどん作っていく
 5. ~~必要であればコマンドプロンプトを開いて，pipを使って必要なモジュールをインストールする~~
 6. 必要なモジュールがある場合は，モジュール名，bit数などを確認し，ダウンロードしてインストールする  
-	※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/
+	※URL:<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank">http://www.lfd.uci.edu/~gohlke/pythonlibs/</a>
 
 ## 代表的なモジュール
 1. 下の3つモジュールは重要なモジュール（ライブラリ，パッケージ，ツール）である．  
@@ -180,7 +179,7 @@ WindowsにPyCharm CEを導入する
 	* *matplotlib* グラフ表示用モジュール  
 
 2. 3つをインストールするには以下のサイトからモジュールをダウンロード（約110MB）する  
-	※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack  
+	※URL:<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack" target="_blank">http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack</a>  
 
 	**64bit版-Windows**  
 	Scipy-stack (experimental) is a meta package that (略)  
@@ -213,7 +212,7 @@ WindowsにPyCharm CEを導入する
 2. モジュールのインストール   
    pip installでもインストール出来るが，必要なモジュールがある場合は，  
    モジュール名，bit数などを確認し，以下のURLからダウンロードしてインストールした方がよい  
-   ※URL:http://www.lfd.uci.edu/~gohlke/pythonlibs/
+   ※URL:<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank">http://www.lfd.uci.edu/~gohlke/pythonlibs/</a>
 
 3. モジュールのアンインストール
 
@@ -238,10 +237,10 @@ WindowsにPyCharm CEを導入する
 3. 下に出てきた，Terminalコンソールの右側にある歯車アイコンをクリックし，Split modeにチェックを入れる
 4. もう一回，ソースコードを実行すると，実行結果画面とTerminalが分割して表示されている
 5. 表示されない場合は，以下を試す
-   1. 一番左下の白いアイコンをクリックし，番号とタグが表示される状態する  
+	1. 一番左下の白いアイコンをクリックし，番号とタグが表示される状態する  
       ※例:6:TODO，Event Log，4:Run，Terminalなど
-   2. 左側にRun，右側にTerminalが来るように，ドラッグして動かす（他のは，そのままで良い）
-   3. 再度，ソースコードを実行する
+	2. 左側にRun，右側にTerminalが来るように，ドラッグして動かす（他のは，そのままで良い）
+	3. 再度，ソースコードを実行する
 6. 右下にあるTerminalコンソールで，pythonかipythonを実行させておく
 7. 実行結果を確認しつつ，右下のpythonかipythonでちょっとした動作確認も出来るようになる
    
