@@ -1,6 +1,7 @@
 WindowsにPyCharm CEを導入する
 ===================
 #### ※注意   
+* ***\ とはWindowsでいう ￥ のこと***
 * ***Windowsで \\ をコピペしたら ￥ になる***  
 * ***Windowsのbit数(32bitか64bit)には注意する***  
 * ***ダウンロードするバージョンが少し異なる場合もある***
@@ -10,8 +11,9 @@ WindowsにPyCharm CEを導入する
 1. OSのbit数にを確認する
 	* Vista, 7:スタートボタン -> 「コンピュータ」を右クリック -> プロパティから確認
 	* Windows 8:はデスクトップ左下で右クリックしてシステムをクリック  
-2. 以下のページのDownloadからver2.7の最新版（2013年10月12日現在では2.7.5）のPythonをダウンロード  
-   ※URL:http://www.python.org/download/releases/2.7.5    
+2. 以下のページのDownloadからver2.7の最新版（2013年10月12日現在では2.7.5）のPythonをダウンロード   
+   ※URL:<a href="http://www.python.org/download/releases/2.7.5" target="_blank">
+		http://www.python.org/download/releases/2.7.5</a>
 	* 32bit版 -> Windows x86 MSI Installer (2.7.5) (sig)
 	* 64bit版 -> Windows X86-64 MSI Installer (2.7.5) [1] (sig)
 3. 実行して，Nextを連打してインストールする
