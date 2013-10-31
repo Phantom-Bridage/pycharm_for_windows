@@ -60,7 +60,7 @@ WindowsにPyCharm CEを導入する
 	```
 8. mkdir Scriptsと打つ(大文字，小文字，スペルミスに注意する)
 	```
-	C:\Users\ユーザ名>mkdir Scripts  
+	C:\Python27>mkdir Scripts  
 	```
 9. 何も出てこないか，"サブディレクトリまたはファイル Scripts は既に存在します．"と出ればOK
    
