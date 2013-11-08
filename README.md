@@ -136,7 +136,7 @@ WindowsにPyCharm CEを導入する
    I do not （略）の方に，チェックがあることを確認して，OKを押す
 3. PyCharmが再起動した後に，PyCharm Community Edition Initial Configurationウインドウで初期設定をする
 	1. Keymap schemeは使ったことや聞いたことのある名前を選択すると良い（ない人はVisual Studio）
-	2. IDE themeはDefaultは明るめのテーマ，Darculaは暗めのテーマになっている
+	2. IDE themeは，Defaultが明るめのテーマ，Darculaが暗めのテーマになっている
 	3. Editor colors and fontsはClick to previewを押すことでカラーテーマを  
       確認できるようになるので，確認しながら好みに合わせて設定する
 	4. OKを押して，PyCharmを再起動する
