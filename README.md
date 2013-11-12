@@ -55,10 +55,12 @@ WindowsにPyCharm CEを導入する
    
 6. コマンドプロンプトを開く（開いたままの人はそのままでOK）
 7. cd C:\Python27と打ってEnterを押す
+
 	```
 	C:\Users\ユーザ名>cd C:\Python27  
 	```
 8. mkdir Scriptsと打って(大文字，小文字，スペルミスに注意する)Enterを押す
+
 	```
 	C:\Python27>mkdir Scripts  
 	```
