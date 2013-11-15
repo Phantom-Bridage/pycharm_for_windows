@@ -87,42 +87,6 @@ WindowsにPyCharm CEを導入する
 16. 15.でエラーになる場合は，12.をもう一度やる
 17. Pythonのインストール終了
 
-## pip（パッケージ管理ツール）のインストール
-1. 以下のURLにアクセス  
-   ※URL:<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip" target="_blank">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip</a>
-2. 以下のようになっているので，   
-
-	**64bit版-Windows**  
-	Pip installs packages. An easy_install replacement.  
-	* pip-1.3.1.win-amd64-py2.5.exe
-	* pip-1.3.1.win32-py2.5.exe
-	* pip-1.4.1.win-amd64-py2.6.exe
-	* **<font color="red">pip-1.4.1.win-amd64-py2.7.exe</font> <- `ここをクリック`**
-	* pip-1.4.1.win-amd64-py3.2.exe
-	* pip-1.4.1.win-amd64-py3.3.exe
-	* pip-1.4.1.win32-py2.6.exe
-	* pip-1.4.1.win32-py2.7.exe
-	* pip-1.4.1.win32-py3.2.exe
-	* pip-1.4.1.win32-py3.3.exe  
-    
-	**32bit版-Windows**  
-	Pip installs packages. An easy_install replacement.  
-	* pip-1.3.1.win-amd64-py2.5.exe
-	* pip-1.3.1.win32-py2.5.exe
-	* pip-1.4.1.win-amd64-py2.6.exe
-	* pip-1.4.1.win-amd64-py2.7.exe
-	* pip-1.4.1.win-amd64-py3.2.exe
-	* pip-1.4.1.win-amd64-py3.3.exe
-	* pip-1.4.1.win32-py2.6.exe
-	* **<font color="red">pip-1.4.1.win32-py2.7.exe</font> <- `ここをクリック`**
-	* pip-1.4.1.win32-py3.2.exe
-	* pip-1.4.1.win32-py3.3.exe
-
-
-3. ダウンロードしたexeファイルを実行する
-4. ユーザーアカウント制御が出てきた場合は，許可を選択
-5. 次へを連打でインストールする
-
 
 ## PyCharm CE(Community Edition)のインストール
 1. 以下のURLにアクセスする  
@@ -211,6 +175,80 @@ WindowsにPyCharm CEを導入する
 	2. アップデートが終わるまでは，Runが実行できないので完了するまで待つ
 
 ## その他
+### pip（パッケージ管理ツール）のインストール
+1. Scipy-stackをインストールした人は5.から，していない人は2.から行う
+2. setuptoolsのインストール
+3. 以下のURLにアクセス  
+   ※URL:<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools" target="_blank">http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools</a>
+4. 以下のようになっているので，   
+
+	**64bit版-Windows**  
+	Setuptools downloads, builds, installs, upgrades, and uninstalls Python packages. 
+	* setuptools-1.3.2.win-amd64-py2.5.exe
+	* setuptools-1.3.2.win-amd64-py2.6.exe
+	* **<font color="red">setuptools-1.3.2.win-amd64-py2.7.exe</font> <- `ここをクリック`**
+	* setuptools-1.3.2.win-amd64-py3.2.exe
+	* setuptools-1.3.2.win-amd64-py3.3.exe
+	* setuptools-1.3.2.win32-py2.5.exe
+	* setuptools-1.3.2.win32-py2.6.exe
+	* setuptools-1.3.2.win32-py2.7.exe
+	* setuptools-1.3.2.win32-py3.2.exe
+	* setuptools-1.3.2.win32-py3.3.exe
+ 
+    
+	**32bit版-Windows**  
+	Setuptools downloads, builds, installs, upgrades, and uninstalls Python packages. 
+	* setuptools-1.3.2.win-amd64-py2.5.exe
+	* setuptools-1.3.2.win-amd64-py2.6.exe
+	* setuptools-1.3.2.win-amd64-py2.7.exe
+	* setuptools-1.3.2.win-amd64-py3.2.exe
+	* setuptools-1.3.2.win-amd64-py3.3.exe
+	* setuptools-1.3.2.win32-py2.5.exe
+	* setuptools-1.3.2.win32-py2.6.exe
+	* **<font color="red">setuptools-1.3.2.win32-py2.7.exe</font> <- `ここをクリック`**
+	* setuptools-1.3.2.win32-py3.2.exe
+	* setuptools-1.3.2.win32-py3.3.exe
+
+
+5. ダウンロードしたexeファイルを実行する
+6. ユーザーアカウント制御が出てきた場合は，許可を選択
+7. 次へを連打でインストールする
+8. 続いて，pipのインストール
+9. 以下のURLにアクセス  
+   ※URL:<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip" target="_blank">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip</a>
+10. 以下のようになっているので，   
+
+	**64bit版-Windows**  
+	Pip installs packages. An easy_install replacement.  
+	* pip-1.3.1.win-amd64-py2.5.exe
+	* pip-1.3.1.win32-py2.5.exe
+	* pip-1.4.1.win-amd64-py2.6.exe
+	* **<font color="red">pip-1.4.1.win-amd64-py2.7.exe</font> <- `ここをクリック`**
+	* pip-1.4.1.win-amd64-py3.2.exe
+	* pip-1.4.1.win-amd64-py3.3.exe
+	* pip-1.4.1.win32-py2.6.exe
+	* pip-1.4.1.win32-py2.7.exe
+	* pip-1.4.1.win32-py3.2.exe
+	* pip-1.4.1.win32-py3.3.exe  
+    
+	**32bit版-Windows**  
+	Pip installs packages. An easy_install replacement.  
+	* pip-1.3.1.win-amd64-py2.5.exe
+	* pip-1.3.1.win32-py2.5.exe
+	* pip-1.4.1.win-amd64-py2.6.exe
+	* pip-1.4.1.win-amd64-py2.7.exe
+	* pip-1.4.1.win-amd64-py3.2.exe
+	* pip-1.4.1.win-amd64-py3.3.exe
+	* pip-1.4.1.win32-py2.6.exe
+	* **<font color="red">pip-1.4.1.win32-py2.7.exe</font> <- `ここをクリック`**
+	* pip-1.4.1.win32-py3.2.exe
+	* pip-1.4.1.win32-py3.3.exe
+
+
+11. ダウンロードしたexeファイルを実行する
+12. ユーザーアカウント制御が出てきた場合は，許可を選択
+13. 次へを連打でインストールする
+
 ### pipの基本的な使い方
 1. モジュールの検索
 
