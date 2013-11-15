@@ -176,7 +176,7 @@ WindowsにPyCharm CEを導入する
 
 ## その他
 ### pip（パッケージ管理ツール）のインストール
-1. Scipy-stackをインストールした人は5.から，していない人は2.から行う
+1. Scipy-stackをインストールした人は8.から，していない人は2.から行う
 2. setuptoolsのインストール
 3. 以下のURLにアクセス  
    ※URL:<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools" target="_blank">http://www.lfd.uci.edu/~gohlke/pythonlibs/#setuptools</a>
@@ -208,7 +208,6 @@ WindowsにPyCharm CEを導入する
 	* **<font color="red">setuptools-1.3.2.win32-py2.7.exe</font> <- `ここをクリック`**
 	* setuptools-1.3.2.win32-py3.2.exe
 	* setuptools-1.3.2.win32-py3.3.exe
-
 
 5. ダウンロードしたexeファイルを実行する
 6. ユーザーアカウント制御が出てきた場合は，許可を選択
